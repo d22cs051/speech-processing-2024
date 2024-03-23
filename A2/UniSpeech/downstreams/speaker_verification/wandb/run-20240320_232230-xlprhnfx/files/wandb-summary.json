@@ -1,0 +1,1 @@
+{"train batch_idx": 781, "Train Batch Loss": 0.7010352611541748, "Train Batch EER": 0.24999999999983075, "_timestamp": 1710960191.6078403, "_runtime": 3040.9230942726135, "_step": 863, "Epoch": 1, "AVG. Train Loss": 0.6561317515495183, "AVG. Train EER": 0.24912041001511628, "test batch_idx": 80, "Test Batch EER": 0.14285714285732942, "_wandb": {"runtime": 3042}}
