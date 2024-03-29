@@ -1,9 +1,0 @@
-Epoch Number::   0%|                                                                      | 0/1 [00:00<?, ?it/s]
-
-  return F.conv1d(input, weight, bias, self.stride,                                      | 0/38 [00:00<?, ?it/s]
-Testing Batch:   0%|                                                                     | 0/38 [00:03<?, ?it/s]
-Epoch Number::   0%|                                                                      | 0/1 [00:03<?, ?it/s]
-Traceback (most recent call last):
-  File "/DATA1/bikash_dutta/CS/SP/A2/LibriMix/test.py", line 190, in <module>
-    wandb.log_table(key='sample_table', columns=columns, data=data)
-AttributeError: module 'wandb' has no attribute 'log_table'

@@ -1,9 +1,0 @@
-Epoch Number::   0%|                                                                      | 0/1 [00:00<?, ?it/s]
-
-  return F.conv1d(input, weight, bias, self.stride,                                      | 0/38 [00:00<?, ?it/s]
-Testing Batch:   0%|                                                                     | 0/38 [00:04<?, ?it/s]
-Epoch Number::   0%|                                                                      | 0/1 [00:04<?, ?it/s]
-Traceback (most recent call last):
-  File "/DATA1/bikash_dutta/CS/SP/A2/LibriMix/test.py", line 190, in <module>
-    wandb.Table(key='audio samples', columns=columns, data=data)
-TypeError: Table.__init__() got an unexpected keyword argument 'key'
