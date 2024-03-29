@@ -1,0 +1,41 @@
+Epoch Number::   0%|                                                                      | 0/1 [00:00<?, ?it/s]
+
+  return F.conv1d(input, weight, bias, self.stride,                                      | 0/38 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch Number:: 100%|██████████████████████████████████████████████████████████████| 1/1 [01:10<00:00, 70.76s/it]
+Traceback (most recent call last):
+  File "/DATA1/bikash_dutta/CS/SP/A2/LibriMix/test.py", line 214, in <module>
+    print(f"EPOCH: {epoch},Loss: {fine_tuned_model.loss}")
+  File "/home/curie/miniconda3/envs/sb/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1695, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'SepformerFineTune' object has no attribute 'loss'
+Epoch: 0, Average SDR1: -4.4194841384887695, Average SDR2: -6.878567218780518, Average SISNRi1: -4.419353485107422, Average SISNRi2: -6.867781639099121

@@ -1,0 +1,1 @@
+{"test batch_idx": 0, "Test Batch SDR1": -3.68163800239563, "Test Batch SDR2": -7.35880708694458, "Test Batch SISNRi1": -3.6808295249938965, "Test Batch SISNRi2": -7.3532795906066895, "_timestamp": 1711121060.6578867, "_runtime": 8.308355808258057, "_step": 0, "_wandb": {"runtime": 8}}

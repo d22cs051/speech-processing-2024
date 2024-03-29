@@ -1,0 +1,451 @@
+2024-03-22 20:58:11,582 INFO    StreamThr :1654536 [internal.py:wandb_internal():86] W&B internal server running at pid: 1654536, started at: 2024-03-22 20:58:11.581773
+2024-03-22 20:58:11,585 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status
+2024-03-22 20:58:11,586 INFO    WriterThread:1654536 [datastore.py:open_for_write():87] open: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/run-y8zglsb2.wandb
+2024-03-22 20:58:11,587 DEBUG   SenderThread:1654536 [sender.py:send():378] send: header
+2024-03-22 20:58:11,590 DEBUG   SenderThread:1654536 [sender.py:send():378] send: run
+2024-03-22 20:58:12,388 INFO    SenderThread:1654536 [dir_watcher.py:__init__():211] watching files in: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files
+2024-03-22 20:58:12,388 INFO    SenderThread:1654536 [sender.py:_start_run_threads():1099] run started: y8zglsb2 with start time 1711121291.581558
+2024-03-22 20:58:12,402 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: check_version
+2024-03-22 20:58:12,403 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: check_version
+2024-03-22 20:58:12,815 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: run_start
+2024-03-22 20:58:12,825 DEBUG   HandlerThread:1654536 [system_info.py:__init__():26] System info init
+2024-03-22 20:58:12,826 DEBUG   HandlerThread:1654536 [system_info.py:__init__():41] System info init done
+2024-03-22 20:58:12,826 INFO    HandlerThread:1654536 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 20:58:12,826 INFO    SystemMonitor:1654536 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 20:58:12,826 INFO    HandlerThread:1654536 [system_monitor.py:probe():214] Collecting system info
+2024-03-22 20:58:12,827 INFO    SystemMonitor:1654536 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 20:58:12,828 INFO    SystemMonitor:1654536 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 20:58:12,829 INFO    SystemMonitor:1654536 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 20:58:12,830 INFO    SystemMonitor:1654536 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 20:58:12,831 INFO    SystemMonitor:1654536 [interfaces.py:start():190] Started network monitoring
+2024-03-22 20:58:12,880 DEBUG   HandlerThread:1654536 [system_info.py:probe():150] Probing system
+2024-03-22 20:58:12,883 DEBUG   HandlerThread:1654536 [system_info.py:_probe_git():135] Probing git
+2024-03-22 20:58:12,891 DEBUG   HandlerThread:1654536 [system_info.py:_probe_git():143] Probing git done
+2024-03-22 20:58:12,891 DEBUG   HandlerThread:1654536 [system_info.py:probe():198] Probing system done
+2024-03-22 20:58:12,891 DEBUG   HandlerThread:1654536 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-97-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-03-22T15:28:12.880999', 'startedAt': '2024-03-22T15:28:11.575405', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/DATA1/bikash_dutta/CS/SP/A2/LibriMix/test.py', 'codePathLocal': 'test.py', 'codePath': 'test.py', 'git': {'remote': 'https://github.com/JorisCos/LibriMix.git', 'commit': 'b898ca375c03e4039cdb3dbe3dd485aad58ec7d1'}, 'email': None, 'root': '/DATA1/bikash_dutta/CS/SP/A2/LibriMix', 'host': 'curie', 'username': 'curie', 'executable': '/home/curie/miniconda3/envs/sb/bin/python3', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 1766.3115208333331, 'min': 1500.0, 'max': 2800.0}, 'cpu_freq_per_core': [{'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1474.604, 'min': 1500.0, 'max': 2800.0}, {'current': 2800.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2400.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2400.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2800.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2400.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2400.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2400.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2800.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 2400.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2800.0}], 'disk': {'/': {'total': 202.1372184753418, 'used': 169.2212142944336}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.64784622192383}}
+2024-03-22 20:58:12,891 INFO    HandlerThread:1654536 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-22 20:58:12,891 INFO    HandlerThread:1654536 [system_monitor.py:probe():227] Publishing system info
+2024-03-22 20:58:12,891 DEBUG   HandlerThread:1654536 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-22 20:58:13,389 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_created():271] file/dir created: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/conda-environment.yaml
+2024-03-22 20:58:14,388 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/conda-environment.yaml
+2024-03-22 20:58:14,411 DEBUG   HandlerThread:1654536 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-22 20:58:14,412 INFO    HandlerThread:1654536 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-22 20:58:14,414 DEBUG   SenderThread:1654536 [sender.py:send():378] send: files
+2024-03-22 20:58:14,414 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-22 20:58:14,500 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-22 20:58:14,501 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: python_packages
+2024-03-22 20:58:14,501 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 20:58:14,502 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 20:58:14,505 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 20:58:14,944 DEBUG   SenderThread:1654536 [sender.py:send():378] send: telemetry
+2024-03-22 20:58:14,944 DEBUG   SenderThread:1654536 [sender.py:send():378] send: telemetry
+2024-03-22 20:58:14,944 DEBUG   SenderThread:1654536 [sender.py:send():378] send: run
+2024-03-22 20:58:15,388 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/config.yaml
+2024-03-22 20:58:15,389 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_created():271] file/dir created: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-metadata.json
+2024-03-22 20:58:15,389 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_created():271] file/dir created: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/requirements.txt
+2024-03-22 20:58:15,772 INFO    wandb-upload_0:1654536 [upload_job.py:push():131] Uploaded file /tmp/tmpv0d145e_wandb/90amp3fi-wandb-metadata.json
+2024-03-22 20:58:20,431 INFO    SenderThread:1654536 [sender.py:send_run():973] updated run: y8zglsb2
+2024-03-22 20:58:20,432 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:21,391 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_created():271] file/dir created: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:22,109 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:22,110 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:22,110 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:22,112 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:22,391 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_created():271] file/dir created: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:23,392 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:23,935 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:23,936 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:23,936 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:23,937 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:24,392 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:25,392 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:25,766 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:25,767 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:25,768 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:25,768 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:25,768 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:26,393 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:27,393 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:27,583 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:27,584 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:27,584 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:27,585 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:28,394 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:29,394 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:29,410 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:29,411 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:29,412 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:29,412 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:29,501 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 20:58:29,502 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 20:58:29,504 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 20:58:30,395 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:30,925 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:31,222 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:31,223 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:31,223 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:31,224 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:31,395 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:31,395 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:33,038 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:33,040 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:33,040 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:33,040 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:33,396 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:33,396 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:34,862 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:34,864 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:34,864 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:34,865 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:35,397 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:35,397 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:36,689 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:36,690 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:36,690 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:36,691 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:36,691 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:37,397 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:37,398 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:38,522 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:38,523 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:38,524 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:38,524 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:39,398 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:39,399 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:40,343 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:40,345 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:40,345 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:40,346 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:40,399 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:41,399 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:42,172 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:42,173 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:42,179 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:42,522 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:42,525 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:43,400 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:43,400 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/config.yaml
+2024-03-22 20:58:43,992 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:43,993 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:43,993 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:43,994 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:44,401 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:44,501 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 20:58:44,502 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 20:58:44,505 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 20:58:45,401 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:45,817 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:45,818 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:45,819 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:45,821 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:46,401 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:47,402 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:47,644 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:47,645 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:47,646 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:47,646 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:47,647 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:48,402 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:49,403 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:49,473 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:49,474 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:49,475 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:49,475 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:50,403 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:51,303 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:51,304 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:51,305 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:51,305 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:51,403 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:51,404 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:53,132 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:53,134 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:53,134 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:53,134 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:53,137 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:53,404 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:53,405 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:54,962 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:54,964 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:54,964 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:54,965 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:55,405 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:55,406 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:56,788 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:56,789 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:56,789 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:56,791 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:57,406 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:57,406 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:58,620 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:58:58,622 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:58:58,622 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:58:58,622 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:58:58,623 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:58:59,407 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:58:59,407 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:58:59,501 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 20:58:59,502 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 20:58:59,505 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 20:59:00,454 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:00,455 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:00,455 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:00,456 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:01,407 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:01,408 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:02,288 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:02,289 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:02,290 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:02,290 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:02,408 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:03,408 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:04,117 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:04,118 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:04,119 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:04,119 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:04,119 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:04,409 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:05,409 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:05,953 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:05,954 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:05,954 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:05,955 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:06,410 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:07,410 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:07,785 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:07,787 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:07,787 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:07,787 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:08,410 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:09,411 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:09,623 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:09,625 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:09,625 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:09,626 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:09,626 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:10,411 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:11,412 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:11,457 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:11,459 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:11,459 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:11,459 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:12,412 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:12,831 DEBUG   SystemMonitor:1654536 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 20:59:12,832 DEBUG   SenderThread:1654536 [sender.py:send():378] send: stats
+2024-03-22 20:59:13,295 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:13,296 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:13,296 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:13,297 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:13,412 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:13,413 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:14,502 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 20:59:14,502 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 20:59:14,503 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 20:59:14,948 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:15,131 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:15,132 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:15,133 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:15,133 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:15,413 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:15,414 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:16,970 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:16,972 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:16,972 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:16,973 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:17,414 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:17,414 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:18,811 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:18,812 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:18,812 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:18,813 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:19,415 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:19,415 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:20,647 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:20,648 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:20,649 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:20,649 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:20,649 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:21,416 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:21,416 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:22,485 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:22,486 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:22,486 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:22,487 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:23,416 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:23,417 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:24,326 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:24,327 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:24,327 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:24,328 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:24,417 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:25,417 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:26,163 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:26,164 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:26,165 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:26,165 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:26,165 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:26,417 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:27,418 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:28,007 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:28,009 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:28,009 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:28,010 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:28,418 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:28,949 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:28,950 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 20:59:28,951 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:28,952 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:28,954 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:28,955 DEBUG   SenderThread:1654536 [sender.py:send():378] send: history
+2024-03-22 20:59:28,955 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 20:59:28,956 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:29,262 DEBUG   SenderThread:1654536 [sender.py:send():378] send: exit
+2024-03-22 20:59:29,262 INFO    SenderThread:1654536 [sender.py:send_exit():585] handling exit code: 1
+2024-03-22 20:59:29,262 INFO    SenderThread:1654536 [sender.py:send_exit():587] handling runtime: 76
+2024-03-22 20:59:29,263 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:29,263 INFO    SenderThread:1654536 [sender.py:send_exit():593] send defer
+2024-03-22 20:59:29,263 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,264 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-22 20:59:29,264 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,264 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-22 20:59:29,264 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 1
+2024-03-22 20:59:29,264 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,264 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-22 20:59:29,265 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,265 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-22 20:59:29,265 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 2
+2024-03-22 20:59:29,265 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,265 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-22 20:59:29,265 INFO    HandlerThread:1654536 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-22 20:59:29,265 DEBUG   SystemMonitor:1654536 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 20:59:29,265 DEBUG   SystemMonitor:1654536 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 20:59:29,267 INFO    HandlerThread:1654536 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-22 20:59:29,268 INFO    HandlerThread:1654536 [interfaces.py:finish():202] Joined disk monitor
+2024-03-22 20:59:29,388 INFO    HandlerThread:1654536 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-22 20:59:29,389 INFO    HandlerThread:1654536 [interfaces.py:finish():202] Joined memory monitor
+2024-03-22 20:59:29,389 INFO    HandlerThread:1654536 [interfaces.py:finish():202] Joined network monitor
+2024-03-22 20:59:29,389 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,390 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-22 20:59:29,390 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 3
+2024-03-22 20:59:29,390 DEBUG   SenderThread:1654536 [sender.py:send():378] send: stats
+2024-03-22 20:59:29,391 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,391 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-22 20:59:29,391 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,391 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-22 20:59:29,391 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 4
+2024-03-22 20:59:29,391 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,391 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-22 20:59:29,392 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,392 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-22 20:59:29,392 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 5
+2024-03-22 20:59:29,392 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,392 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-22 20:59:29,393 DEBUG   SenderThread:1654536 [sender.py:send():378] send: summary
+2024-03-22 20:59:29,393 INFO    SenderThread:1654536 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 20:59:29,394 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,394 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-22 20:59:29,394 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 6
+2024-03-22 20:59:29,394 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,394 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-22 20:59:29,394 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,394 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-22 20:59:29,394 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 7
+2024-03-22 20:59:29,395 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:29,395 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:29,395 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-22 20:59:29,395 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:29,395 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-22 20:59:29,419 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:29,419 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:30,171 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 20:59:30,961 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 8
+2024-03-22 20:59:30,961 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 20:59:30,962 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:30,962 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-22 20:59:30,962 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:30,962 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-22 20:59:30,962 INFO    SenderThread:1654536 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-22 20:59:30,962 INFO    SenderThread:1654536 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-22 20:59:30,978 INFO    SenderThread:1654536 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-22 20:59:30,981 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 9
+2024-03-22 20:59:30,982 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:30,982 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-22 20:59:30,982 DEBUG   SenderThread:1654536 [sender.py:send():378] send: artifact
+2024-03-22 20:59:31,172 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 20:59:31,420 INFO    Thread-12 :1654536 [dir_watcher.py:_on_file_modified():288] file/dir modified: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:33,453 INFO    wandb-upload_0:1654536 [upload_job.py:push():86] Skipped uploading /home/curie/.local/share/wandb/artifacts/staging/tmpg4m8mekg
+2024-03-22 20:59:33,881 INFO    wandb-upload_1:1654536 [upload_job.py:push():89] Uploaded file /home/curie/.local/share/wandb/artifacts/staging/tmpaam55sgz
+2024-03-22 20:59:36,175 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 20:59:36,417 INFO    SenderThread:1654536 [sender.py:send_artifact():1443] sent artifact job-https___github.com_JorisCos_LibriMix.git_test.py - {'id': 'QXJ0aWZhY3Q6NzY2ODY0MTcy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTQyNzQ5MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzY2ODYwMDk4', 'versionIndex': 4}}}
+2024-03-22 20:59:36,417 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:36,417 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-22 20:59:36,418 INFO    SenderThread:1654536 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-22 20:59:36,418 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 20:59:36,421 INFO    SenderThread:1654536 [dir_watcher.py:finish():388] scan: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files
+2024-03-22 20:59:36,421 INFO    SenderThread:1654536 [dir_watcher.py:finish():402] scan save: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-metadata.json wandb-metadata.json
+2024-03-22 20:59:36,422 INFO    SenderThread:1654536 [dir_watcher.py:finish():402] scan save: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log output.log
+2024-03-22 20:59:36,422 INFO    SenderThread:1654536 [dir_watcher.py:finish():402] scan save: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/conda-environment.yaml conda-environment.yaml
+2024-03-22 20:59:36,422 INFO    SenderThread:1654536 [dir_watcher.py:finish():402] scan save: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/requirements.txt requirements.txt
+2024-03-22 20:59:36,422 INFO    SenderThread:1654536 [dir_watcher.py:finish():402] scan save: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/config.yaml config.yaml
+2024-03-22 20:59:36,430 INFO    SenderThread:1654536 [dir_watcher.py:finish():402] scan save: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json wandb-summary.json
+2024-03-22 20:59:36,431 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 10
+2024-03-22 20:59:36,431 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 20:59:36,435 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:36,435 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-22 20:59:36,439 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:36,439 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-22 20:59:36,440 INFO    SenderThread:1654536 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 20:59:37,175 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 20:59:37,176 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 20:59:37,312 INFO    wandb-upload_0:1654536 [upload_job.py:push():131] Uploaded file /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/conda-environment.yaml
+2024-03-22 20:59:37,420 INFO    wandb-upload_3:1654536 [upload_job.py:push():131] Uploaded file /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/config.yaml
+2024-03-22 20:59:37,431 INFO    wandb-upload_4:1654536 [upload_job.py:push():131] Uploaded file /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/wandb-summary.json
+2024-03-22 20:59:37,557 INFO    wandb-upload_1:1654536 [upload_job.py:push():131] Uploaded file /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/requirements.txt
+2024-03-22 20:59:37,821 INFO    wandb-upload_2:1654536 [upload_job.py:push():131] Uploaded file /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/files/output.log
+2024-03-22 20:59:38,021 INFO    Thread-11 (_thread_body):1654536 [sender.py:transition_state():613] send defer: 11
+2024-03-22 20:59:38,022 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:38,022 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-22 20:59:38,023 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:38,023 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-22 20:59:38,023 INFO    SenderThread:1654536 [file_pusher.py:join():178] waiting for file pusher
+2024-03-22 20:59:38,023 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 12
+2024-03-22 20:59:38,023 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:38,024 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-22 20:59:38,024 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:38,024 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-22 20:59:38,024 INFO    SenderThread:1654536 [file_stream.py:finish():595] file stream finish called
+2024-03-22 20:59:38,176 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 20:59:39,030 INFO    SenderThread:1654536 [file_stream.py:finish():599] file stream finish is done
+2024-03-22 20:59:39,030 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 13
+2024-03-22 20:59:39,030 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 20:59:39,031 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:39,031 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-22 20:59:39,031 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:39,031 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-22 20:59:39,032 INFO    SenderThread:1654536 [sender.py:transition_state():613] send defer: 14
+2024-03-22 20:59:39,032 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 20:59:39,032 INFO    HandlerThread:1654536 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-22 20:59:39,032 DEBUG   SenderThread:1654536 [sender.py:send():378] send: final
+2024-03-22 20:59:39,032 DEBUG   SenderThread:1654536 [sender.py:send():378] send: footer
+2024-03-22 20:59:39,033 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: defer
+2024-03-22 20:59:39,033 INFO    SenderThread:1654536 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-22 20:59:39,033 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 20:59:39,034 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 20:59:39,034 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 20:59:39,035 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 20:59:39,035 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: server_info
+2024-03-22 20:59:39,035 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-22 20:59:39,036 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: server_info
+2024-03-22 20:59:39,039 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-22 20:59:39,040 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 20:59:39,041 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: job_info
+2024-03-22 20:59:39,383 DEBUG   SenderThread:1654536 [sender.py:send_request():405] send_request: job_info
+2024-03-22 20:59:39,384 INFO    MainThread:1654536 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-22 20:59:39,385 INFO    MainThread:1654536 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-22 20:59:39,385 INFO    MainThread:1654536 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-22 20:59:39,385 DEBUG   HandlerThread:1654536 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-22 20:59:39,386 INFO    HandlerThread:1654536 [handler.py:finish():869] shutting down handler
+2024-03-22 20:59:40,041 INFO    WriterThread:1654536 [datastore.py:close():296] close: /DATA1/bikash_dutta/CS/SP/A2/LibriMix/wandb/run-20240322_205811-y8zglsb2/run-y8zglsb2.wandb
+2024-03-22 20:59:40,384 INFO    SenderThread:1654536 [sender.py:finish():1521] shutting down sender
+2024-03-22 20:59:40,384 INFO    SenderThread:1654536 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 20:59:40,384 INFO    SenderThread:1654536 [file_pusher.py:join():178] waiting for file pusher
