@@ -1,0 +1,1 @@
+model file can be downloaded form offiical github repo of the model.
